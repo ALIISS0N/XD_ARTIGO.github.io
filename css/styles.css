@@ -79,6 +79,75 @@ a {
   text-decoration: none;
 }
 
+.seta-image {
+  width: 14px;
+  height: 14px;
+}
+.play-image {
+  width: 16px;
+  height: 16px;
+}
+.salvar-image {
+  width: 14px;
+  height: 16px;
+}
+.comentar-image {
+  width: 15px;
+  height: 16px;
+}
+.imagen2 {
+  width: 345px;
+  height: 245px;
+}
+.imagen3 {
+  width: 345px;
+  height: 245px;
+}
+.imagen4 {
+  width: 345px;
+  height: 245px;
+}
+.imagen5 {
+  width: 345px;
+  height: 245px;
+}
+.imagen6 {
+  width: 345px;
+  height: 245px;
+}
+.curtir-img {
+  width: 16px;
+  height: 14px;
+}
+.curtido-img {
+  width: 16px;
+  height: 14px;
+}
+.responder-img {
+  width: 14px;
+  height: 10px;
+}
+.leitor1 {
+  width: 30px;
+  height: 30px;
+}
+.leitor2 {
+  width: 30px;
+  height: 30px;
+}
+.leitor3 {
+  width: 30px;
+  height: 30px;
+}
+.jogadores {
+  width: 110px;
+  height: 110px;
+}
+.goleiro {
+  width: 110px;
+  height: 110px;
+}
+
 /* ARTIGO 1 */
 .container-page {
   display: flex;
@@ -465,8 +534,6 @@ a {
 }
 .comentarios-c-1 > img {
   margin-right: 10px;
-  width: 30px;
-  height: 30px;
 }
 
 .coment-c-1 > h5 {
@@ -505,8 +572,6 @@ a {
 }
 .resposta-c-1 > img {
   margin-right: 10px;
-  width: 30px;
-  height: 30px;
 }
 
 .comentarios-c-2 {
@@ -515,8 +580,6 @@ a {
 }
 .comentarios-c-2 > img {
   margin-right: 10px;
-  width: 30px;
-  height: 30px;
 }
 
 .comentario-input {
@@ -525,8 +588,6 @@ a {
 }
 .comentario-input > img {
   margin-right: 10px;
-  width: 30px;
-  height: 30px;
 }
 .comentario-input > input {
   width: 305px;
