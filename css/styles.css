@@ -236,8 +236,13 @@ a {
 .menu-s-c-c > img {
   margin-right: 10px;
 }
-.menu-s-c-c > a > h6 {
+.menu-s-c-c > a > p {
   margin-right: 20px;
+  font-family: "Figtree", sans-serif;
+  font-size: 1.2em;
+  font-weight: 400;
+  color: var(--cor1);
+  line-height: 14px;
 }
 
 .compart {
@@ -552,10 +557,14 @@ a {
 .coment-c-1 > h4 {
   margin-bottom: 3px;
 }
-.coment-c-1 > h6 {
+.coment-c-1 .p-h {
   margin-bottom: 10px;
   font-size: 1em;
   color: #787676;
+  font-family: "Figtree", sans-serif;
+  font-size: 1.2em;
+  font-weight: 400;
+  line-height: 14px;
 }
 .coment-c-1 > p {
   margin-bottom: 14px;
@@ -570,9 +579,13 @@ a {
   margin-right: 6px;
 }
 
-.curtir-responder > a > h6 {
+.curtir-responder > a > p {
   margin-right: 18px;
   color: #787676;
+  font-family: "Figtree", sans-serif;
+  font-size: 1.2em;
+  font-weight: 400;
+  line-height: 14px;
 }
 
 .curtido {
