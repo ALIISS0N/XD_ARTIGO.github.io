@@ -192,7 +192,7 @@ a {
   height: 375px;
 }
 
-.artigo-destaque-1 > img {
+.artigo-destaque-1 > picture > img {
   margin-bottom: 18px;
 }
 .artigo-cc > p {
@@ -235,7 +235,7 @@ a {
   align-items: center;
   margin-bottom: 33px;
 }
-.menu-s-c-c > img {
+.menu-s-c-c > picture > img {
   margin-right: 10px;
 }
 .menu-s-c-c > a > p {
@@ -295,6 +295,16 @@ a {
 }
 
 .play-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 22px;
+  height: 22px;
+  background-color: var(--cor2);
+  border-radius: 50%;
+  margin-right: 8px;
+}
+.play-img > picture {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -642,7 +652,7 @@ a {
   width: 345px;
   height: 110px;
 }
-.leia-c-1 > img {
+.leia-c-1 > picture > img {
   width: 110px;
   height: 110px;
   border-radius: 10px;
@@ -684,7 +694,7 @@ a {
   width: 345px;
   height: 110px;
 }
-.leia-c-2 > img {
+.leia-c-2 > picture > img {
   width: 110px;
   height: 110px;
   border-radius: 10px;
@@ -697,7 +707,7 @@ a {
   width: 345px;
   height: 110px;
 }
-.leia-c-3 > img {
+.leia-c-3 > picture > img {
   width: 110px;
   height: 110px;
   border-radius: 10px;
@@ -710,7 +720,7 @@ a {
   width: 345px;
   height: 110px;
 }
-.leia-c-4 > img {
+.leia-c-4 > picture > img {
   width: 110px;
   height: 110px;
   border-radius: 10px;
