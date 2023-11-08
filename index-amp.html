@@ -1,0 +1,1290 @@
+<!DOCTYPE html>
+<html amp lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="canonical" href="https://aliiss0n.github.io/XD_ARTIGO.github.io/index.html">
+    <script async src="https://cdn.ampproject.org/v0.js"></script>
+    <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+    <meta name="description" content="Lembrem quem eram os craques da última Champions sem Neymar, Messi e CR7">
+
+    <!-- FONTE DO PROJETO -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link as="style"
+        href="https://fonts.googleapis.com/css2?family=Figtree:wght@300;400;500;600;700;800;900&display=swap"
+        rel="preload">
+
+    <!-- CSS -->
+    <style amp-custom type="text/css">
+        * {
+            font-family: "Figtree", sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            font-size: 62.5%;
+        }
+
+        body {
+            box-sizing: border-box;
+        }
+
+        /* VARIAVEIS */
+
+        :root {
+            --cor0: #ffffff;
+            --cor1: #211a16;
+            --cor2: #ffff00;
+            --cor3: #707070;
+            --cor4: #0000001a;
+            --cor5: #cfcfcf;
+            --cor6: #343434;
+        }
+
+        /* GERAL */
+
+        h1 {
+            font-family: "Figtree", sans-serif;
+            font-size: 2.4em;
+            font-weight: 600;
+            color: var(--cor1);
+            line-height: 28px;
+        }
+
+        h2 {
+            font-family: "Figtree", sans-serif;
+            font-size: 2.4em;
+            font-weight: 600;
+            color: var(--cor1);
+            line-height: 29px;
+        }
+
+        h3 {
+            font-family: "Figtree", sans-serif;
+            font-size: 2em;
+            font-weight: 700;
+            color: var(--cor1);
+            line-height: 24px;
+        }
+
+        h4 {
+            font-family: "Figtree", sans-serif;
+            font-size: 1.2em;
+            font-weight: 600;
+            color: var(--cor6);
+            line-height: 24px;
+        }
+
+        h5 {
+            font-family: "Figtree", sans-serif;
+            font-size: 1.2em;
+            font-weight: 600;
+            color: var(--cor6);
+            line-height: 24px;
+        }
+
+        h6 {
+            font-family: "Figtree", sans-serif;
+            font-size: 1.2em;
+            font-weight: 400;
+            color: var(--cor1);
+            line-height: 14px;
+        }
+
+        p {
+            font-family: "Figtree", sans-serif;
+            font-size: 1.6em;
+            font-weight: 400;
+            color: var(--cor1);
+            line-height: 24px;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        .seta-image {
+            width: 14px;
+            height: 14px;
+        }
+
+        .play-image {
+            width: 16px;
+            height: 16px;
+        }
+
+        .salvar-image {
+            width: 14px;
+            height: 16px;
+        }
+
+        .comentar-image {
+            width: 15px;
+            height: 16px;
+        }
+
+        .imagen2 {
+            width: 345px;
+            height: 245px;
+        }
+
+        .imagen3 {
+            width: 345px;
+            height: 245px;
+        }
+
+        .imagen4 {
+            width: 345px;
+            height: 245px;
+        }
+
+        .imagen5 {
+            width: 345px;
+            height: 245px;
+        }
+
+        .imagen6 {
+            width: 345px;
+            height: 245px;
+        }
+
+        .curtir-img {
+            width: 16px;
+            height: 14px;
+        }
+
+        .curtido-img {
+            width: 16px;
+            height: 14px;
+        }
+
+        .responder-img {
+            width: 14px;
+            height: 10px;
+        }
+
+        .leitor1 {
+            width: 30px;
+            height: 30px;
+        }
+
+        .leitor2 {
+            width: 30px;
+            height: 30px;
+        }
+
+        .leitor3 {
+            width: 30px;
+            height: 30px;
+        }
+
+        .jogadores {
+            width: 110px;
+            height: 110px;
+        }
+
+        .goleiro {
+            width: 110px;
+            height: 110px;
+        }
+
+        /* ARTIGO 1 */
+        .container-page {
+            display: flex;
+            margin: 0 auto;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            color: var(--cor0);
+        }
+
+        .artigo-cc {
+            padding: 0px 15px;
+        }
+
+        .title {
+            font-family: "Figtree", sans-serif;
+            font-size: 2.4em;
+            font-weight: 600;
+            color: var(--cor1);
+            line-height: 28px;
+        }
+
+        .artigos-destaques {
+            width: 375px;
+        }
+
+        .artigo-destaque-1 {
+            position: relative;
+            z-index: 1;
+        }
+
+        .img-jogador1 {
+            width: 375px;
+            height: 375px;
+            margin-bottom: 18px;
+        }
+
+        .artigo-cc>p {
+            margin-bottom: 32px;
+        }
+
+        .artigo-cc .title {
+            margin-bottom: 10px;
+        }
+
+        .artigo-cc>h3 {
+            margin-bottom: 18px;
+            font-family: "Figtree", sans-serif;
+            font-size: 1.2em;
+            font-weight: 400;
+            color: var(--cor1);
+            line-height: 14px;
+        }
+
+        .img-bar {
+            position: absolute;
+            top: 0;
+            width: 375px;
+            height: 44px;
+            z-index: 1;
+        }
+
+        .hashtag {
+            display: flex;
+            align-items: center;
+        }
+
+        .hashtag>h6 {
+            margin-right: 10px;
+            padding: 3px 9px;
+            background-color: var(--cor2);
+            border-radius: 10px;
+            margin-bottom: 10px;
+        }
+
+        .menu-s-c-c {
+            display: flex;
+            align-items: center;
+            margin-bottom: 33px;
+        }
+
+        .menu-s-c-c>amp-img {
+            margin-right: 10px;
+        }
+
+        .menu-s-c-c>a>p {
+            margin-right: 20px;
+            font-family: "Figtree", sans-serif;
+            font-size: 1.2em;
+            font-weight: 400;
+            color: var(--cor1);
+            line-height: 14px;
+        }
+
+        .compart {
+            width: 17px;
+            height: 16px;
+        }
+
+        .bar-fixed {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            position: fixed;
+            width: 375px;
+            height: 104px;
+            bottom: 0;
+            background-color: var(--cor0);
+            z-index: 1;
+            border-radius: 8px 8px 0px 0px;
+            box-shadow: 0px -5px 10px #0000001a;
+            padding-top: 26px;
+        }
+
+        .fixed-c {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 375px;
+            height: 34px;
+        }
+
+        .play {
+            margin-right: 43px;
+        }
+
+        .tema {
+            margin-right: 42px;
+        }
+
+        .play>span {
+            display: flex;
+        }
+
+        .play>span>a {
+            font-family: "Figtree", sans-serif;
+            font-size: 1.6em;
+            font-weight: 800;
+            color: var(--cor1);
+            line-height: 19px;
+        }
+
+        .play-img {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 22px;
+            height: 22px;
+            background-color: var(--cor2);
+            border-radius: 50%;
+            margin-right: 8px;
+        }
+
+        .play-img {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 22px;
+            height: 22px;
+            background-color: var(--cor2);
+            border-radius: 50%;
+            margin-right: 8px;
+        }
+
+        .play>h6,
+        .tema>h6,
+        .font>h6 {
+            font-size: 1.2em;
+            margin-bottom: 11px;
+            font-weight: 500;
+            line-height: 14px;
+            color: var(--cor1);
+        }
+
+        .tema>span {
+            display: flex;
+        }
+
+        .tema>span>button {
+            width: 22px;
+            height: 22px;
+            cursor: pointer;
+        }
+
+        .selected {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: var(--cor0);
+            border: 1px solid #eee;
+            border-radius: 50%;
+            margin-right: 10px;
+        }
+
+        .select {
+            width: 22px;
+            height: 22px;
+        }
+
+        .no-selected {
+            background-color: var(--cor1);
+            border-radius: 50%;
+        }
+
+        .font .slider-container {
+            position: relative;
+            display: flex;
+            align-items: center;
+        }
+
+        .slide_bar {
+            position: absolute;
+            left: 18px;
+            width: 80px;
+            height: 6px;
+            border-radius: 10px;
+            background-color: #eeeeee;
+            z-index: 1;
+            overflow: hidden;
+        }
+
+        .fill {
+            display: block;
+            width: 0;
+            height: 100%;
+            background-color: #211a16;
+        }
+
+        .slide {
+            position: relative;
+            width: 80px;
+            height: 6px;
+            border-radius: 10px;
+            appearance: none;
+            background-color: transparent;
+            z-index: 2;
+        }
+
+        .slide::-webkit-slider-thumb {
+            appearance: none;
+            width: 6px;
+            height: 6px;
+            background-color: var(--cor2);
+            box-shadow: 0px 0px 1px 3px #211a1677;
+            border-radius: 50%;
+            cursor: pointer;
+        }
+
+        .slide:active::-webkit-slider-thumb {
+            box-shadow: 0px 0px 1px 3px #211a16b7;
+        }
+
+        .small {
+            margin-right: 10px;
+            font-size: 1.2em;
+            font-weight: 500;
+        }
+
+        .big {
+            margin-left: 10px;
+            font-size: 2em;
+            font-weight: 600;
+        }
+
+        .bars {
+            position: relative;
+            width: 80px;
+            height: 6px;
+            background-color: #eee;
+            border-radius: 10px;
+        }
+
+        .bar {
+            width: 43px;
+            height: 6px;
+            background-color: var(--cor1);
+            border-radius: 10px;
+        }
+
+        .bar-inf {
+            width: 135px;
+            height: 5px;
+            background-color: #000;
+            margin-bottom: 8px;
+            border-radius: 10px;
+            margin-top: 21px;
+        }
+
+        .seta {
+            position: absolute;
+            width: 42px;
+            height: 42px;
+            background-color: var(--cor1);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            top: 54px;
+            left: 15px;
+            border-radius: 10px;
+        }
+
+        .publicidade {
+            display: flex;
+            margin: 0 auto;
+            height: 50px;
+            margin: 0px 10px 34px 10px;
+        }
+
+        .publicidade-c {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            position: relative;
+            width: 320px;
+            height: 50px;
+            background-color: var(--cor5);
+        }
+
+        .publicidade>p {
+            font-weight: 700;
+            color: rgba(33, 26, 22, 0.7);
+        }
+
+        .i {
+            position: absolute;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            top: 0;
+            right: 20px;
+            width: 18px;
+            height: 19px;
+            color: #21b8d3;
+            background-color: #ffffff;
+        }
+
+        .i>amp-img {
+            width: 18px;
+            height: 19px;
+        }
+
+        .x {
+            position: absolute;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            top: 0;
+            right: 0;
+            width: 18px;
+            height: 19px;
+            color: #21b8d3;
+            background-color: #ffffff;
+        }
+
+        .x>amp-img {
+            width: 18px;
+            height: 19px;
+        }
+
+        /* ARTIGO 2 */
+        .artigo-destaque-2 {
+            margin-bottom: 32px;
+        }
+
+        .artigo-destaque-2>amp-img {
+            margin-bottom: 18px;
+        }
+
+        .artigo-destaque-2>h2 {
+            margin-bottom: 10px;
+        }
+
+        /* ARTIGO 3 */
+        .artigo-destaque-3 {
+            margin-bottom: 32px;
+        }
+
+        .artigo-destaque-3>amp-img {
+            margin-bottom: 18px;
+        }
+
+        .artigo-destaque-3>h2 {
+            margin-bottom: 10px;
+        }
+
+        /* ARTIGO 4 */
+        .artigo-destaque-4 {
+            margin-bottom: 32px;
+        }
+
+        .artigo-destaque-4>amp-img {
+            margin-bottom: 18px;
+        }
+
+        .artigo-destaque-4>h2 {
+            margin-bottom: 10px;
+        }
+
+        /* ARTIGO 5 */
+        .artigo-destaque-5 {
+            margin-bottom: 32px;
+        }
+
+        .artigo-destaque-5>amp-img {
+            margin-bottom: 18px;
+        }
+
+        .artigo-destaque-5>h2 {
+            margin-bottom: 10px;
+        }
+
+        /* ARTIGO 6 */
+        .artigo-destaque-6 {
+            margin-bottom: 32px;
+        }
+
+        .artigo-destaque-6>amp-img {
+            margin-bottom: 18px;
+        }
+
+        .artigo-destaque-6>h2 {
+            margin-bottom: 10px;
+        }
+
+        /* COMENTARIOS */
+        .comentarios {
+            margin-bottom: 32px;
+        }
+
+        .comentarios>h3 {
+            margin-bottom: 24px;
+        }
+
+        .comentarios-c-1 {
+            display: flex;
+            margin-bottom: 20px;
+        }
+
+        .comentarios-c-1>amp-img {
+            margin-right: 10px;
+        }
+
+        .coment-c-1>h4 {
+            margin-bottom: 3px;
+        }
+
+        .coment-c-1 .p-h {
+            margin-bottom: 10px;
+            font-size: 1em;
+            color: #787676;
+            font-family: "Figtree", sans-serif;
+            font-size: 1.2em;
+            font-weight: 400;
+            line-height: 14px;
+        }
+
+        .coment-c-1>p {
+            margin-bottom: 14px;
+            font-size: 1.2em;
+        }
+
+        .curtir-responder {
+            display: flex;
+            align-items: center;
+        }
+
+        .curtir-responder>amp-img {
+            margin-right: 6px;
+        }
+
+        .curtir-responder>a>p {
+            margin-right: 18px;
+            color: #787676;
+            font-family: "Figtree", sans-serif;
+            font-size: 1.2em;
+            font-weight: 400;
+            line-height: 14px;
+        }
+
+        .curtido {
+            color: #d53636;
+        }
+
+        .resposta-c-1 {
+            display: flex;
+            margin-top: 20px;
+        }
+
+        .resposta-c-1>amp-img {
+            margin-right: 10px;
+        }
+
+        .comentarios-c-2 {
+            display: flex;
+            margin-bottom: 24px;
+        }
+
+        .comentarios-c-2>amp-img {
+            margin-right: 10px;
+        }
+
+        .comentario-input {
+            display: flex;
+            align-items: center;
+        }
+
+        .comentario-input>amp-img {
+            margin-right: 10px;
+        }
+
+        .comentario-input>input {
+            width: 305px;
+            height: 38px;
+            display: flex;
+            align-items: center;
+            padding-left: 25px;
+            border-radius: 10px;
+            border: 1px solid #eeeeee;
+        }
+
+        /* LEIA TAMBÉM */
+
+        .leia-tambem {
+            margin-bottom: 134px;
+        }
+
+        .leia-tambem>h3 {
+            margin-bottom: 18px;
+        }
+
+        .leia-c-1 {
+            display: flex;
+            margin-bottom: 18px;
+            width: 345px;
+            height: 110px;
+        }
+
+        .leia-c-1>amp-img {
+            width: 110px;
+            height: 110px;
+            border-radius: 10px;
+            margin-right: 15px;
+        }
+
+        .leia-c-text {
+            position: relative;
+            box-sizing: border-box;
+            width: 220px;
+        }
+
+        .leia-c-text>a>p {
+            margin-bottom: 8px;
+            font-weight: 600;
+            line-height: 20px;
+        }
+
+        .leia-c-text .dt {
+            color: var(--cor3);
+            font-family: "Figtree", sans-serif;
+            font-size: 1.2em;
+            font-weight: 400;
+            line-height: 14px;
+        }
+
+        .menu-leia {
+            display: flex;
+            position: absolute;
+            bottom: 0;
+        }
+
+        .menu-leia>a>amp-img {
+            margin-right: 10px;
+        }
+
+        .leia-c-2 {
+            display: flex;
+            margin-bottom: 18px;
+            width: 345px;
+            height: 110px;
+        }
+
+        .leia-c-2>amp-img {
+            width: 110px;
+            height: 110px;
+            border-radius: 10px;
+            margin-right: 15px;
+        }
+
+        .leia-c-3 {
+            display: flex;
+            margin-bottom: 18px;
+            width: 345px;
+            height: 110px;
+        }
+
+        .leia-c-3>amp-img {
+            width: 110px;
+            height: 110px;
+            border-radius: 10px;
+            margin-right: 15px;
+        }
+
+        .leia-c-4 {
+            display: flex;
+            margin-bottom: 18px;
+            width: 345px;
+            height: 110px;
+        }
+
+        .leia-c-4>amp-img {
+            width: 110px;
+            height: 110px;
+            border-radius: 10px;
+            margin-right: 15px;
+        }
+    </style>
+
+    <title>XD-Artigo</title>
+    <style amp-boilerplate>
+        body {
+            -webkit-animation: -amp-start 8s steps(1, end) 0s 1 normal both;
+            -moz-animation: -amp-start 8s steps(1, end) 0s 1 normal both;
+            -ms-animation: -amp-start 8s steps(1, end) 0s 1 normal both;
+            animation: -amp-start 8s steps(1, end) 0s 1 normal both
+        }
+
+        @-webkit-keyframes -amp-start {
+            from {
+                visibility: hidden
+            }
+
+            to {
+                visibility: visible
+            }
+        }
+
+        @-moz-keyframes -amp-start {
+            from {
+                visibility: hidden
+            }
+
+            to {
+                visibility: visible
+            }
+        }
+
+        @-ms-keyframes -amp-start {
+            from {
+                visibility: hidden
+            }
+
+            to {
+                visibility: visible
+            }
+        }
+
+        @-o-keyframes -amp-start {
+            from {
+                visibility: hidden
+            }
+
+            to {
+                visibility: visible
+            }
+        }
+
+        @keyframes -amp-start {
+            from {
+                visibility: hidden
+            }
+
+            to {
+                visibility: visible
+            }
+        }
+    </style>
+    <noscript>
+        <style amp-boilerplate>
+            body {
+                -webkit-animation: none;
+                -moz-animation: none;
+                -ms-animation: none;
+                animation: none
+            }
+        </style>
+    </noscript>
+
+</head>
+
+<body>
+    <div class="container-page">
+        <section class="artigos-destaques">
+            <article class="artigo-destaque-1">
+
+                <amp-img class="img-bar" src="./img/ios-white-bar.webp" layout="responsive" width="375" height="44"
+                    alt="bar"></amp-img>
+
+
+                <amp-img class="img-jogador1" src="./img/imagem1.webp" layout="responsive" width="375" height="375"
+                    alt="img1"></amp-img>
+
+                <div class="seta">
+                    <amp-img class="seta-image" src="./img/seta.png" layout="responsive" width="14" height="14"
+                        alt="seta"></amp-img>
+                </div>
+                <!-- seta -->
+
+                <div class="bar-fixed">
+                    <div class="fixed-c">
+                        <div class="play">
+                            <h6>Ouça o artigo</h6>
+                            <span>
+                                <span class="play-img">
+                                    <amp-img class="play-image" src="./img/play.webp" layout="responsive" width="16"
+                                        height="16" alt="play"></amp-img>
+                                </span>
+                                <a href="./index.html">
+                                    Play
+                                </a>
+                            </span>
+                        </div>
+                        <!-- play -->
+                        <div class="tema">
+                            <h6>Tema</h6>
+                            <span>
+                                <button class="selected" aria-label="" title="tema1">
+                                    <amp-img class="select" src="./img/select.webp" layout="responsive" width="22"
+                                        height="22" alt="play"></amp-img>
+                                </button>
+                                <button class="no-selected" aria-label="" title="tema2"></button>
+                            </span>
+                        </div>
+                        <!-- tema -->
+                        <div class="font">
+                            <h6 id="fonts-label">Font</h6>
+                            <div class="slider-container">
+                                <span class="slide_bar"><span class="fill"></span></span>
+                                <p class="small">A</p>
+                                <input id="slider" class="slide" type="range" min="0" max="100" value="50"
+                                    aria-labelledby="fonts-label">
+                                <p class="big">A</p>
+                            </div>
+                        </div>
+                        <!-- font -->
+                    </div>
+                    <!-- fixed-c -->
+                    <div class="bar-inf"></div>
+                </div>
+                <!-- bar-fixed -->
+
+                <div class="artigo-cc">
+                    <div class="hashtag">
+                        <h6>esportes</h6>
+                        <h6>champions</h6>
+                        <h6>ligas</h6>
+                    </div>
+                    <!-- hashtag -->
+
+                    <h2 class="title">Lembrem quem eram os <br>craques da última Champions <br>sem Neymar, Messi e CR7
+                    </h2>
+                    <h3>25 de outubro de 2023, 18:08h</h3>
+
+                    <div class="menu-s-c-c">
+                        <amp-img class="salvar-image" src="./img/salvar.webp" layout="responsive" width="14" height="16"
+                            alt="salvar"></amp-img>
+
+                        <a href="./index.html">
+                            <p>Salvar</p>
+                        </a>
+                        <amp-img class="comentar-image" src="./img/comentar.webp" layout="responsive" width="15"
+                            height="16" alt="comentar"></amp-img>
+
+                        <a href="./index.html">
+                            <p>Comentar</p>
+                        </a>
+                        <amp-img class="compart" src="./img/compartilhar.webp" layout="responsive" width="17"
+                            height="16" alt="compartilhar"></amp-img>
+
+                        <a href="./index.html">
+                            <p>Compartilhar</p>
+                        </a>
+                    </div>
+                    <!-- menu-s-c-c -->
+
+                    <p>O Sauditão e a MLS mexeram com o brio do <br>futebol europeu, isso porque as duas ligas
+                        <br>levaram
+                        embora os três maiores craques dos <br>últimos tempos do velho continente. Cristiano <br>Ronaldo
+                        e
+                        Neymar, migraram para a Arabia <br>Saudita, já Lionel Messi partiu rumo o futebol <br>dos EUA.
+                        As
+                        melhores casas de apostas <br>esportivas tiveram que refazer seus portifólios <br>e adicionar
+                        essas
+                        duas ligas em suas primeiras <br>prateleiras de ligas importantes após essas <br>chegadas.
+                    </p>
+
+                    <div class="publicidade">
+                        <div class="publicidade-c">
+                            <p>PUBLICIDADE</p>
+                            <div class="i">
+                                <amp-img src="./img/i.webp" layout="responsive" width="18" height="19"
+                                    alt="play"></amp-img>
+                            </div>
+                            <div class="x">
+                                <amp-img src="./img/x.webp" layout="responsive" width="18" height="19"
+                                    alt="play"></amp-img>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- publicidade -->
+
+                    <p>Pesando nisso e aproveitando que a Champions <br>League já está pegando fogo nessa nova
+                        <br>temporada, resolvemos trazer uma lista com os <br>craques da última edição da Liga, lá em
+                        <br>2001/02, que não contou com a presença dos 3 <br>craques. Vejamos:
+                    </p>
+                </div>
+                <!-- artigo-cc -->
+
+            </article>
+            <!-- artigo-destaque-1 -->
+            <div class="artigo-cc">
+
+                <article class="artigo-destaque-2">
+                    <amp-img class="imagen2" src="./img/imagem2.webp" layout="responsive" width="345" height="245"
+                        alt="img2"></amp-img>
+
+                    <h2>Luis Enrique</h2>
+                    <p>O atual treinador do PSG e com passagens pela <br>seleção da Espanha, bem como foi o treinador
+                        <br>que comandou o Barcelona de Messi e Neymar <br>ao título, jogou a edição de 2001/02 pelo
+                        <br>próprio time catalão. O ex-meio-campista fez <br>uma excelente Champions League naquele ano,
+                        <br>marcou cinco gols e foi um dos destaques da <br>equipe catalã na campanha.
+                    </p>
+                </article>
+                <!-- artigo-destaque-2 -->
+
+                <article class="artigo-destaque-3">
+                    <amp-img class="imagen3" src="./img/imagem3.webp" layout="responsive" width="345" height="245"
+                        alt="img3"></amp-img>
+
+                    <h2>Oliver Kahn</h2>
+                    <p>O Eleito melhor jogador da Copa de 2002, bem <br>como melhor goleiro do mundo jogou a
+                        <br>competição
+                        pelo clube que sempre defendeu, o <br>Bayern de Munch. Apesar de ter se destacado <br>bastante
+                        nessa
+                        temporada, o mesmo não <br>aconteceu com seu clube que caiu nas quartas <br>de final para o Real
+                        Madrid. Atualmente, o vice-<br>campeão da Copa do Mundo de 2002 é <br>dirigente do clube da
+                        Baviera.
+                    </p>
+                </article>
+                <!-- artigo-destaque-3 -->
+
+                <article class="artigo-destaque-4">
+                    <amp-img class="imagen4" src="./img/imagem4.webp" layout="responsive" width="345" height="245"
+                        alt="img4"></amp-img>
+
+                    <h2>David Beckham</h2>
+                    <p>Cria do Manchester United, ele disputou a <br>temporada 2001/02. Marcou cinco gols naquela
+                        <br>Champions, deu cinco assistências e ajudou a <br>equipe a chegar na semifinal do torneio,
+                        <br>eliminado pelo Bayer Leverkusen, vice-<br>campeão daquela edição.
+                    </p>
+                </article>
+                <!-- artigo-destaque-4 -->
+
+                <article class="artigo-destaque-5">
+                    <amp-img class="imagen5" src="./img/imagem5.webp" layout="responsive" width="345" height="245"
+                        alt="img5"></amp-img>
+
+                    <h2>Djalminha</h2>
+                    <p>Naquela época, o Deportivo La Coruña ainda <br>dava trabalho aos grandes do futebol europeu,
+                        <br>e
+                        muito por conta desse brasileiro. Djalminha. O <br>ex-Palmeiras marcou gols, decidiu partidas e
+                        se
+                        <br>tornou um dos ídolos do clube, sendo lembrado <br>até hoje levando a equipe a fazer uma boa
+                        <br>campanha na Liga.
+                    </p>
+                </article>
+                <!-- artigo-destaque-5 -->
+
+                <article class="artigo-destaque-6">
+                    <amp-img class="imagen6" src="./img/imagem6.webp" layout="responsive" width="345" height="245"
+                        alt="img6"></amp-img>
+
+                    <h2>Zinédine Zidane</h2>
+                    <p>Tido como um dos maiores jogadores do <br>mundo, o francês era o maestro do Real Madrid <br>num
+                        meio
+                        campo de alto nível. O craque foi tão <br>bem naquela edição que conquistou o título <br>com um
+                        golaço na final, bem como foi <br>considerado como o melhor jogador do mundo <br>pela UEFA.</p>
+                </article>
+                <!-- artigo-destaque-6 -->
+
+                <div class="comentarios">
+                    <h3>Comentários</h3>
+                    <div class="comentarios-c-1">
+                        <amp-img class="leitor1" src="./img/leitor1.webp" layout="responsive" width="30" height="30"
+                            alt="leitor1"></amp-img>
+                        <div class="coment-c-1">
+                            <h4>André Alves</h4>
+                            <p class="p-h">há 2 min</p>
+                            <p>Lorem Ipsum is simply dummy text of the printing and <br>typesetting industry. Lorem
+                                Ipsum
+                                has been the</p>
+                            <div class="curtir-responder">
+                                <amp-img class="curtido-img" src="./img/curtido.webp" layout="responsive" width="16"
+                                    height="14" alt="curtido"></amp-img>
+                                <a href="#">
+                                    <p class="curtido">curtido</p>
+                                </a>
+                                <amp-img class="responder-img" src="./img/responder.webp" layout="responsive" width="14"
+                                    height="10" alt="responder"></amp-img>
+                                <a href="#">
+                                    <p>responder</p>
+                                </a>
+                            </div>
+
+                            <div class="resposta-c-1">
+                                <amp-img class="leitor3" src="./img/leitor3.webp" layout="responsive" width="30"
+                                    height="30" alt="leitor3"></amp-img>
+                                <div class="coment-c-1">
+                                    <h4>Rodrigo Silva</h4>
+                                    <p class="p-h">há 2 min</p>
+                                    <p>Lorem Ipsum is simply dummy text of the <br>printing and typesetting industry.
+                                        Lorem
+                                        Ipsum</p>
+                                    <div class="curtir-responder">
+                                        <amp-img class="curtir-img" src="./img/curtir.webp" layout="responsive"
+                                            width="16" height="14" alt="curtir"></amp-img>
+                                        <a href="#">
+                                            <p>curtir</p>
+                                        </a>
+                                        <amp-img class="responder-img" src="./img/responder.webp" layout="responsive"
+                                            width="14" height="10" alt="responder"></amp-img>
+                                        <a href="#">
+                                            <p>responder</p>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- comentarios-c-1 -->
+                    <div class="comentarios-c-2">
+                        <amp-img class="leitor2" src="./img/leitor2.webp" layout="responsive" width="30" height="30"
+                            alt="leitor2"></amp-img>
+                        <div class="coment-c-1">
+                            <h4>Fernando</h4>
+                            <p class="p-h">há 2 min</p>
+                            <p>Lorem Ipsum is simply dummy text of the printing and <br>typesetting industry. Lorem
+                                Ipsum
+                                has been the</p>
+                            <div class="curtir-responder">
+                                <amp-img class="curtir-img" src="./img/curtir.webp" layout="responsive" width="16"
+                                    height="14" alt="curtir"></amp-img>
+                                <a href="#">
+                                    <p>curtir</p>
+                                </a>
+                                <amp-img class="responder-img" src="./img/responder.webp" layout="responsive" width="14"
+                                    height="10" alt="responder"></amp-img>
+                                <a href="#">
+                                    <p>responder</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- comentarios-c-2 -->
+
+                    <div class="comentario-input">
+                        <amp-img class="leitor3" src="./img/leitor3.webp" layout="responsive" width="30" height="30"
+                            alt="leitor3"></amp-img>
+                        <input type="text" placeholder="Digite aqui seu comentário...">
+                    </div>
+                    <!-- comentario-input -->
+                </div>
+                <!-- comentarios -->
+
+                <div class="leia-tambem">
+                    <h3>Leia também</h3>
+                    <div class="leia-c-1">
+                        <amp-img class="jogadores" src="./img/jogadores.webp" layout="responsive" width="110"
+                            height="110" alt="jogadores"></amp-img>
+
+                        <div class="leia-c-text">
+                            <a href="#">
+                                <p>Angra basquete Máster +40 <br>vence no primeiro confronto <br>das quartas da final
+                                    LSB
+                                </p>
+                            </a>
+                            <p class="dt">25 de outubro de 2023, 09:33h</p>
+                            <div class="menu-leia">
+                                <a href="#">
+                                    <amp-img class="salvar-image" src="./img/salvar.webp" layout="responsive" width="14"
+                                        height="16" alt="salvar"></amp-img>
+                                </a>
+                                <a href="#">
+                                    <amp-img class="comentar-image" src="./img/comentar.webp" layout="responsive"
+                                        width="15" height="16" alt="comentar"></amp-img>
+                                </a>
+                                <a href="#">
+                                    <amp-img class="compart" src="./img/compartilhar.webp" layout="responsive"
+                                        width="17" height="16" alt="compartilhar"></amp-img>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- leia-c-1 -->
+
+                    <div class="leia-c-2">
+                        <amp-img class="goleiro" src="./img/goleiro.webp" layout="responsive" width="110" height="110"
+                            alt="goleiro"></amp-img>
+
+                        <div class="leia-c-text">
+                            <a href="#">
+                                <p>Campeonato Brasileiro: <br>Grêmio supera Flamengo</p>
+                            </a>
+                            <p class="dt">25 de outubro de 2023, 09:33h</p>
+                            <div class="menu-leia">
+                                <a href="#">
+                                    <amp-img class="salvar-image" src="./img/salvar.webp" layout="responsive" width="14"
+                                        height="16" alt="salvar"></amp-img>
+                                </a>
+                                <a href="#">
+                                    <amp-img class="comentar-image" src="./img/comentar.webp" layout="responsive"
+                                        width="15" height="16" alt="comentar"></amp-img>
+                                </a>
+                                <a href="#">
+                                    <amp-img class="compart" src="./img/compartilhar.webp" layout="responsive"
+                                        width="17" height="16" alt="compartilhar"></amp-img>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- leia-c-2 -->
+
+                    <div class="leia-c-3">
+                        <amp-img class="jogadores" src="./img/jogadores.webp" layout="responsive" width="110"
+                            height="110" alt="jogadores"></amp-img>
+                        <div class="leia-c-text">
+                            <a href="#">
+                                <p>Angra basquete Máster +40 <br>vence no primeiro confronto <br>das quartas da final
+                                    LSB
+                                </p>
+                            </a>
+                            <p class="dt">25 de outubro de 2023, 09:33h</p>
+                            <div class="menu-leia">
+                                <a href="#">
+                                    <amp-img class="salvar-image" src="./img/salvar.webp" layout="responsive" width="14"
+                                        height="16" alt="salvar"></amp-img>
+                                </a>
+                                <a href="#">
+                                    <amp-img class="comentar-image" src="./img/comentar.webp" layout="responsive"
+                                        width="15" height="16" alt="comentar"></amp-img>
+                                </a>
+                                <a href="#">
+                                    <amp-img class="compart" src="./img/compartilhar.webp" layout="responsive"
+                                        width="17" height="16" alt="compartilhar"></amp-img>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- leia-c-3 -->
+
+                    <div class="leia-c-4">
+                        <amp-img class="goleiro" src="./img/goleiro.webp" layout="responsive" width="110" height="110"
+                            alt="goleiro"></amp-img>
+                        <div class="leia-c-text">
+                            <a href="#">
+                                <p>Campeonato Brasileiro: <br>Grêmio supera Flamengo</p>
+                            </a>
+                            <p class="dt">25 de outubro de 2023, 09:33h</p>
+                            <div class="menu-leia">
+                                <a href="#">
+                                    <amp-img class="salvar-image" src="./img/salvar.webp" layout="responsive" width="14"
+                                        height="16" alt="salvar"></amp-img>
+                                </a>
+                                <a href="#">
+                                    <amp-img class="comentar-image" src="./img/comentar.webp" layout="responsive"
+                                        width="15" height="16" alt="comentar"></amp-img>
+                                </a>
+                                <a href="#">
+                                    <amp-img class="compart" src="./img/compartilhar.webp" layout="responsive"
+                                        width="17" height="16" alt="compartilhar"></amp-img>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- leia-c-4 -->
+                </div>
+            </div>
+            <!-- artigo-cc -->
+        </section>
+        <!-- artigo-destaque-1 -->
+    </div>
+    <!-- container-page -->
+
+</body>
+
+</html>
