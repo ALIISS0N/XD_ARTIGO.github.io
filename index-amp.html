@@ -13,7 +13,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link as="style"
         href="https://fonts.googleapis.com/css2?family=Figtree:wght@300;400;500;600;700;800;900&display=swap"
-        rel="preload">
+        onload=this.onload=null;this.rel=&apos;stylesheet&apos; rel="preload">
 
     <!-- CSS -->
     <style amp-custom type="text/css">
@@ -882,17 +882,22 @@
 
 </head>
 
+
 <body>
     <div class="container-page">
         <section class="artigos-destaques">
             <article class="artigo-destaque-1">
 
                 <amp-img class="img-bar" src="./img/ios-white-bar.webp" layout="responsive" width="375" height="44"
-                    alt="bar"></amp-img>
+                    alt="bar">
+                    <amp-img src="./img/ios-white-bar.png" fallback width="375" height="44" alt="bar"></amp-img>
+                </amp-img>
 
 
                 <amp-img class="img-jogador1" src="./img/imagem1.webp" layout="responsive" width="375" height="375"
-                    alt="img1"></amp-img>
+                    alt="img1">
+                    <amp-img src="./img/imagem1.png" fallback width="375" height="375" alt="img1"></amp-img>
+                </amp-img>
 
                 <div class="seta">
                     <amp-img class="seta-image" src="./img/seta.png" layout="responsive" width="14" height="14"
@@ -1016,7 +1021,9 @@
 
                 <article class="artigo-destaque-2">
                     <amp-img class="imagen2" src="./img/imagem2.webp" layout="responsive" width="345" height="245"
-                        alt="img2"></amp-img>
+                        alt="img2">
+                        <amp-img src="./img/imagem2.png" fallback width="345" height="245" alt="img2"></amp-img>
+                    </amp-img>
 
                     <h2>Luis Enrique</h2>
                     <p>O atual treinador do PSG e com passagens pela <br>seleção da Espanha, bem como foi o treinador
@@ -1029,7 +1036,9 @@
 
                 <article class="artigo-destaque-3">
                     <amp-img class="imagen3" src="./img/imagem3.webp" layout="responsive" width="345" height="245"
-                        alt="img3"></amp-img>
+                        alt="img3">
+                        <amp-img src="./img/imagem3.png" fallback width="345" height="245" alt="img3"></amp-img>
+                    </amp-img>
 
                     <h2>Oliver Kahn</h2>
                     <p>O Eleito melhor jogador da Copa de 2002, bem <br>como melhor goleiro do mundo jogou a
@@ -1045,7 +1054,9 @@
 
                 <article class="artigo-destaque-4">
                     <amp-img class="imagen4" src="./img/imagem4.webp" layout="responsive" width="345" height="245"
-                        alt="img4"></amp-img>
+                        alt="img4">
+                        <amp-img src="./img/imagem4.png" fallback width="345" height="245" alt="img4"></amp-img>
+                    </amp-img>
 
                     <h2>David Beckham</h2>
                     <p>Cria do Manchester United, ele disputou a <br>temporada 2001/02. Marcou cinco gols naquela
@@ -1057,7 +1068,9 @@
 
                 <article class="artigo-destaque-5">
                     <amp-img class="imagen5" src="./img/imagem5.webp" layout="responsive" width="345" height="245"
-                        alt="img5"></amp-img>
+                        alt="img5">
+                        <amp-img src="./img/imagem5.png" fallback width="345" height="245" alt="img5"></amp-img>
+                    </amp-img>
 
                     <h2>Djalminha</h2>
                     <p>Naquela época, o Deportivo La Coruña ainda <br>dava trabalho aos grandes do futebol europeu,
@@ -1072,7 +1085,9 @@
 
                 <article class="artigo-destaque-6">
                     <amp-img class="imagen6" src="./img/imagem6.webp" layout="responsive" width="345" height="245"
-                        alt="img6"></amp-img>
+                        alt="img6">
+                        <amp-img src="./img/imagem6.png" fallback width="345" height="245" alt="img6"></amp-img>
+                    </amp-img>
 
                     <h2>Zinédine Zidane</h2>
                     <p>Tido como um dos maiores jogadores do <br>mundo, o francês era o maestro do Real Madrid <br>num
