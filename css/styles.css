@@ -190,11 +190,9 @@ a {
 .img-jogador1 {
   width: 375px;
   height: 375px;
-}
-
-.artigo-destaque-1 > picture > img {
   margin-bottom: 18px;
 }
+
 .artigo-cc > p {
   margin-bottom: 32px;
 }
@@ -499,7 +497,7 @@ a {
 .artigo-destaque-2 {
   margin-bottom: 32px;
 }
-.artigo-destaque-2 > img {
+.artigo-destaque-2 > picture > img {
   margin-bottom: 18px;
 }
 .artigo-destaque-2 > h2 {
@@ -510,7 +508,7 @@ a {
 .artigo-destaque-3 {
   margin-bottom: 32px;
 }
-.artigo-destaque-3 > img {
+.artigo-destaque-3 > picture > img {
   margin-bottom: 18px;
 }
 .artigo-destaque-3 > h2 {
@@ -521,7 +519,7 @@ a {
 .artigo-destaque-4 {
   margin-bottom: 32px;
 }
-.artigo-destaque-4 > img {
+.artigo-destaque-4 > picture > img {
   margin-bottom: 18px;
 }
 .artigo-destaque-4 > h2 {
@@ -532,7 +530,7 @@ a {
 .artigo-destaque-5 {
   margin-bottom: 32px;
 }
-.artigo-destaque-5 > img {
+.artigo-destaque-5 > picture > img {
   margin-bottom: 18px;
 }
 .artigo-destaque-5 > h2 {
@@ -543,7 +541,7 @@ a {
 .artigo-destaque-6 {
   margin-bottom: 32px;
 }
-.artigo-destaque-6 > img {
+.artigo-destaque-6 > picture > img {
   margin-bottom: 18px;
 }
 .artigo-destaque-6 > h2 {
